@@ -78,7 +78,7 @@ a{
 /* Flexbox Body */
 
 .content-wrapper{
-    background-color: rgb(43, 44, 44);
+    background-color: #2b2c2c;
     color: white;
 }
 
@@ -96,6 +96,7 @@ a{
 
 h2{
     width: 20%;
+    padding-left: 40px;
 }
 
 .about-wrapper{
@@ -106,6 +107,7 @@ h2{
   padding-top: 100px;
   flex-wrap: wrap;
   word-wrap: break-word;
+  margin: 10px;
 }
 
 .about-wrapper p{
@@ -117,13 +119,25 @@ h2{
   flex-direction: row;
   justify-content: space-between;
   flex-wrap: wrap;
+  margin: 10px;
 }
 
 .portfolio-pic img{
-  width: 500px;
-  height: 300px;
   float: right;
   padding: 4px;
+  /* min-width: 400px;
+  min-height: 100px; */
+  width: 38%;
+  padding-right: 20px;
+
+}
+
+.portfolio-pic h3{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: flex-end;
+    padding-right: 20px;
 }
 
 .contact-wrapper{
@@ -137,6 +151,13 @@ h2{
   
 }
 
+.contact-wrapper button{
+    background-color: rgb(116, 5, 14);
+    color: white;
+    width: 100px;
+    height: 25px;
+}
+
 /* Footer */
 
  footer{
@@ -144,4 +165,5 @@ h2{
      display: flex;
      justify-content: center;
      color: white;
+     text-transform: uppercase;
  }
