@@ -77,6 +77,27 @@ a{
 
 /* Flexbox Body */
 
+.content-wrapper{
+    background-color: rgb(43, 44, 44);
+    color: white;
+}
+
+.content-wrapper p{
+    width: 80%;
+}
+
+.content-wrapper img{
+    width: 80%;
+}
+
+.content-wrapper a{
+    width: 80%;
+}
+
+h2{
+    width: 20%;
+}
+
 .about-wrapper{
   display: flex;
   flex-direction: row;
@@ -87,14 +108,18 @@ a{
   word-wrap: break-word;
 }
 
-.work-wrapper{
+.about-wrapper p{
+    max-width: 50%;
+}
+
+.portfolio-wrapper{
   display: flex;
   flex-direction: row;
   justify-content: space-between;
   flex-wrap: wrap;
 }
 
-.work-pic img{
+.portfolio-pic img{
   width: 500px;
   height: 300px;
   float: right;
@@ -107,6 +132,9 @@ a{
   justify-content: space-between;
   flex-wrap: wrap;
   word-wrap: break-word;
+  margin: 10px;
+  word-spacing: 40px;
+  
 }
 
 /* Footer */
@@ -115,4 +143,5 @@ a{
      background-color: rgb(43, 44, 44);
      display: flex;
      justify-content: center;
+     color: white;
  }
