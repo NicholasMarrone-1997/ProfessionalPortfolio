@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Play:wght@700&display=swap');
 
+/* *********** Resetting Browser Defaults and applying Font *********** */
 html, *{
     box-sizing: border-box;
     padding: 0;
@@ -7,10 +8,12 @@ html, *{
     font-family: 'Play', sans-serif;
 }
 
+/* *********** Get rid of list bullet points *********** */
 ul{
     list-style: none;
 }
 
+/* *********** Get rid of link underline *********** */
 a{
     text-decoration: none;
 }
@@ -77,6 +80,7 @@ a{
 
 /* Flexbox Body */
 
+/* *********** Styling whole Flexbox Body *********** */
 .content-wrapper{
     background-color: #2b2c2c;
     color: white;
@@ -95,9 +99,11 @@ a{
 }
 
 h2{
-    width: 20%;
+    font-size: 38px;
     padding-left: 40px;
 }
+
+/* *********** Flexing the About section and styling *********** */
 
 .about-wrapper{
   display: flex;
@@ -114,6 +120,7 @@ h2{
     max-width: 50%;
 }
 
+/* *********** Flexing the Portfolio section and styling within *********** */
 .portfolio-wrapper{
   display: flex;
   flex-direction: row;
@@ -125,8 +132,6 @@ h2{
 .portfolio-pic img{
   float: right;
   padding: 4px;
-  /* min-width: 400px;
-  min-height: 100px; */
   width: 38%;
   padding-right: 20px;
 
@@ -140,6 +145,7 @@ h2{
     padding-right: 20px;
 }
 
+/* *********** Flexing the Contact section and styling *********** */
 .contact-wrapper{
   display: flex;
   flex-direction: row;
@@ -148,14 +154,21 @@ h2{
   word-wrap: break-word;
   margin: 10px;
   word-spacing: 40px;
-  
+  padding-top: 60px;
 }
 
+/* *********** Setting button colors and look *********** */
 .contact-wrapper button{
     background-color: rgb(116, 5, 14);
     color: white;
     width: 100px;
     height: 25px;
+    margin-right: 20px;
+}
+
+.contact-wrapper h2{
+    padding-bottom: 10px;
+    margin-bottom: 10px;
 }
 
 /* Footer */

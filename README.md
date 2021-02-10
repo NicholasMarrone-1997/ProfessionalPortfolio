@@ -1,7 +1,7 @@
 # Unit-02-Advanced-CSS
 
 ## Description
-A portfolio of work can showcase your skills and talents to employers looking to fill a part-time or full-time position. An effective portfolio highlights your strongest work as well as the thought processes behind it. Students who have portfolios with deployed web applications (meaning they are live on the web) are typically very successful in their career search after the boot camp. This last point can’t be stressed enough: having several deployed projects is a minimum requirement to receive an initial interview at many companies.
+The purpose of this project was to create a personal portfolio website that will showcase yourself. Portfolio pages are one of the first webpages that developers learn how to build. Many developers that build their own webpages have a better chance of being employed. 
 
 ## User Story
 AS AN employer
@@ -28,3 +28,6 @@ THEN I am presented with a responsive layout that adapts to my viewport
 
 ## Link to Deployed Portfolio
 https://nicholasmarrone-1997.github.io/Unit-02-Advanced-CSS/
+
+## Credits
+Image for scratch project: https://www.researchgate.net/figure/Source-code-of-Maze-1-a-Scratch-project-available-at_fig1_318843847
