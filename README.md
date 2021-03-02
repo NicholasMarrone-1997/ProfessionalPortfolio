@@ -23,11 +23,6 @@ THEN I am taken to that deployed application
 WHEN I resize the page or view the site on various screens and devices
 THEN I am presented with a responsive layout that adapts to my viewport
 
-## Mock-Up
-![Mock-Up](portfolio-example.png)
-
 ## Link to Deployed Portfolio
 https://nicholasmarrone-1997.github.io/Unit-02-Advanced-CSS/
 
-## Credits
-Image for scratch project: https://www.researchgate.net/figure/Source-code-of-Maze-1-a-Scratch-project-available-at_fig1_318843847
