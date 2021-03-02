@@ -127,6 +127,7 @@ h2{
   justify-content: space-between;
   flex-wrap: wrap;
   margin: 10px;
+  padding-top: 200px;
 }
 
 .portfolio-pic img{
@@ -189,3 +190,9 @@ h2{
  #headshot{
      width: 300px;
  }
+
+.portfolio-section{
+
+    display: flex;
+    flex-direction: row;
+}
