@@ -109,16 +109,16 @@ h2{
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-  height: 300px;
+  height: 500px;
   padding-top: 100px;
   flex-wrap: wrap;
   word-wrap: break-word;
   margin: 10px;
 }
 
-.about-wrapper p{
+/* .about-wrapper p{
     max-width: 50%;
-}
+} */
 
 /* *********** Flexing the Portfolio section and styling within *********** */
 .portfolio-wrapper{
@@ -133,7 +133,7 @@ h2{
 .portfolio-pic img{
   float: right;
   padding: 4px;
-  width: 38%;
+  width: 100%;
   padding-right: 20px;
 
 }
